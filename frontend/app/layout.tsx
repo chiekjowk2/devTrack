@@ -31,11 +31,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex min-h-screen">
-          <aside className="w-64 border[#1D1D29] border-r"> 
+        <div className="flex min-h-screen ">
+          <aside className=""> 
             <Sidebar />
           </aside>
-          <div className="flex flex-1 flex-col bg[">
+          <div className="flex flex-1 flex-col">
               <Navbar />
             <main className="flex-1  ">
               <Container>
