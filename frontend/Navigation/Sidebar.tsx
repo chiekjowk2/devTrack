@@ -22,25 +22,24 @@ export default function Sidebar() {
   return (
     <div
       className="h-full bg-[#11121E] text-white transition-all duration-300 ease-in-out 
-                    w-20 md:w-64 p-3 flex flex-col items-center md:items-start"
+        w-20 md:w-64 p-3 flex flex-col items-center md:items-start"
     >
-      {/* Title (hidden on small screens) */}
+    
       <h1 className="text-xl mb-10 p-4 font-semibold hidden md:block">
         DevTracker
       </h1>
 
-      {/* Avatar */}
-      <div className="h-30 mb-2 flex flex-col p-3 items-center">
+    
+      <div className="w-full h-30 mb-2 flex flex-col p-3 items-center">
         <div className="bg-green-400 w-12 h-12 md:w-20 md:h-20 rounded-full"></div>
       </div>
 
-      {/* Dashboard Title */}
-      <div className="flex items-center justify-center mb-4">
+     
+      <div className=" w-full p-2 flex items-center justify-center mb-4 font-bold">
         <h1 className="text-sm md:text-lg hidden md:block">Dashboard</h1>
       </div>
 
-      {/* Links */}
-      <ul className="flex flex-col gap-3 w-full text-center p-1">
+      <ul className="flex flex-col gap-4 w-full text-center p-1">
         {list.map((item) => (
           <li
             key={item.name}
@@ -55,12 +54,15 @@ export default function Sidebar() {
               <div className="flex justify-center md:justify-start w-full md:w-auto">
                 {item.Icon}
               </div>
-              {/* Hide text on small screens */}
+            
               <h3 className="hidden md:block">{item.name}</h3>
             </Link>
           </li>
         ))}
       </ul>
+      <div className="mt-auto mb-10 px-2">
+        <button  className="cursor-pointer">Signout</button>
+      </div>
     </div>
   );
 }
