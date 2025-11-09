@@ -2,7 +2,7 @@
 
 export default function Homepage() {
   return (
-    <div className="flex min-h-screen bg-[#1d1d28] text-white">
+    <div className="flex min-h-screen ] text-white bg-gradient-to-br from-[#0f0f1a] via-[#141626] to-[#1c1e33]">
       {/* Main Content Area */}
       <div className="flex-1 px-4 py-6 md:px-8 overflow-y-auto ">
         <h1 className="text-2xl font-semibold mb-6">Logs</h1>

@@ -60,9 +60,7 @@ export default function Sidebar() {
           </li>
         ))}
       </ul>
-      <div className="mt-auto mb-10 px-2">
-        <button  className="cursor-pointer">Signout</button>
-      </div>
+
     </div>
   );
 }
