@@ -28,6 +28,12 @@ export default function Homepage() {
               Used Postman to test all CRUD routes for logs.
             </p>
           </div>
+          <div className="bg-[#2b2b3b] p-4 rounded-lg shadow-md">
+            <h2 className="text-lg font-medium">Day 3: API Testing</h2>
+            <p className="text-gray-300 text-sm mt-2">
+              learnt spring boot .
+            </p>
+          </div>
         </div>
       </div>
     </div>
