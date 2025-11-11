@@ -79,22 +79,6 @@ export default function Profile() {
           Tailwind, and creativity.
         </p>
 
-        {/* Stats */}
-        <div className="flex justify-center gap-8 mb-6">
-          <div>
-            <h3 className="text-xl font-bold text-purple-400">240</h3>
-            <p className="text-gray-400 text-sm">Posts</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold text-purple-400">1.2K</h3>
-            <p className="text-gray-400 text-sm">Followers</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold text-purple-400">980</h3>
-            <p className="text-gray-400 text-sm">Following</p>
-          </div>
-        </div>
-
         {/* Buttons */}
         <div className="flex gap-3 justify-center">
           <button
